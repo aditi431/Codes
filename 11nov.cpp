@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+
+int num;
+cout<<"Enter num : ";
+cin>>num;
+
+if((num%2 == 0) && (num%3 == 0)){
+   cout<<"num is "<<num<<" which satisfies both the conditions"; 
+
+}
+
+else{
+    cout<<"no";
+}
+
+
+
+}
