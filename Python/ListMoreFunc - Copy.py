@@ -1,0 +1,12 @@
+l = [10,2,5,4,6]
+print(l.index(6))
+print(l.index(2))
+l.sort()
+print(l)
+l.reverse()
+print(l)
+print(l.index(6))
+m = max(l)
+print(m)
+n = min(l)
+print(n)
